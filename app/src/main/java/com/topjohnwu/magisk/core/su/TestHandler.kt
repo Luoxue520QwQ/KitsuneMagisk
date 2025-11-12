@@ -23,8 +23,11 @@ object TestHandler {
         }
 
         fun test(): Boolean {
-            // Skip Zygisk check since this version doesn't have Zygisk
-            // Note: Zygisk functionality has been removed from this fork
+            // Make sure Zygisk works correctly
+            if (!Info.isZygiskEnabled) {
+                r.putString("reason", "zygisk not enabled")
+                return false
+            }
 
             // Make sure the Magisk app can get root
             val shell = Shell.getShell()
