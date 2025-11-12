@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 现代化样式定义 - 基于 Material Design 3 设计原则 -->
+    
+    <!-- 现代化的卡片样式 -->
+    <style name="WidgetFoundation.Card.Modern" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/modern_corner_m</item>
+        <item name="cardElevation">@dimen/modern_elevation_m</item>
+        <item name="cardBackgroundColor">@color/modern_surface</item>
+        <item name="strokeColor">@color/modern_border</item>
+        <item name="strokeWidth">@dimen/modern_border_width_s</item>
+    </style>
+    
+    <style name="WidgetFoundation.Card.Modern.Primary" parent="WidgetFoundation.Card.Modern">
+        <item name="cardBackgroundColor">@color/modern_primary</item>
+        <item name="android:textColor">@color/modern_on_primary</item>
+    </style>
+    
+    <!-- 现代化的按钮样式 -->
+    <style name="WidgetFoundation.Button.Modern" parent="Widget.MaterialComponents.Button">
+        <item name="android:minHeight">@dimen/modern_button_height</item>
+        <item name="cornerRadius">@dimen/modern_corner_s</item>
+        <item name="backgroundTint">@color/modern_primary</item>
+        <item name="android:textColor">@color/modern_on_primary</item>
+        <item name="android:textAppearance">@style/AppearanceFoundation.Button</item>
+        <item name="android:paddingStart">@dimen/modern_space_l</item>
+        <item name="android:paddingEnd">@dimen/modern_space_l</item>
+    </style>
+    
+    <style name="WidgetFoundation.Button.Modern.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:minHeight">@dimen/modern_button_height</item>
+        <item name="cornerRadius">@dimen/modern_corner_s</item>
+        <item name="strokeColor">@color/modern_primary</item>
+        <item name="android:textColor">@color/modern_primary</item>
+        <item name="android:textAppearance">@style/AppearanceFoundation.Button</item>
+    </style>
+    
+    <style name="WidgetFoundation.Button.Modern.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:minHeight">@dimen/modern_button_height</item>
+        <item name="android:textColor">@color/modern_primary</item>
+        <item name="android:textAppearance">@style/AppearanceFoundation.Button</item>
+    </style>
+    
+    <!-- 现代化的图标样式 -->
+    <style name="WidgetFoundation.Icon.Modern" parent="">
+        <item name="android:layout_width">@dimen/modern_icon_size_m</item>
+        <item name="android:layout_height">@dimen/modern_icon_size_m</item>
+        <item name="android:tint">@color/modern_icon_active</item>
+    </style>
+    
+    <style name="WidgetFoundation.Icon.Modern.Primary" parent="WidgetFoundation.Icon.Modern">
+        <item name="android:tint">@color/modern_primary</item>
+    </style>
+    
+    <style name="WidgetFoundation.Icon.Modern.Large" parent="WidgetFoundation.Icon.Modern">
+        <item name="android:layout_width">@dimen/modern_icon_size_xl</item>
+        <item name="android:layout_height">@dimen/modern_icon_size_xl</item>
+    </style>
+    
+    <!-- 现代化的进度条样式 -->
+    <style name="WidgetFoundation.ProgressBar.Modern" parent="Widget.MaterialComponents.ProgressIndicator">
+        <item name="trackThickness">4dp</item>
+        <item name="trackColor">@color/modern_surface_variant</item>
+        <item name="indicatorColor">@color/modern_primary</item>
+    </style>
+    
+    <!-- 现代化的底部导航栏样式 -->
+    <style name="WidgetFoundation.BottomNavigation.Modern" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemBackground">?android:attr/selectableItemBackground</item>
+        <item name="itemTextAppearanceActive">@style/AppearanceFoundation.Tiny.Bold.Modern</item>
+        <item name="itemTextAppearanceInactive">@style/AppearanceFoundation.Tiny.Modern</item>
+        <item name="itemIconTint">@color/modern_bottom_nav_tint</item>
+        <item name="itemTextColor">@color/modern_bottom_nav_tint</item>
+    </style>
+    
+    <!-- 现代化的工具栏样式 -->
+    <style name="WidgetFoundation.Toolbar.Modern" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/modern_surface</item>
+        <item name="titleTextAppearance">@style/AppearanceFoundation.Title.Modern</item>
+        <item name="subtitleTextAppearance">@style/AppearanceFoundation.Body.Modern</item>
+    </style>
+    
+    <!-- 现代化的应用栏样式 -->
+    <style name="WidgetFoundation.Appbar.Modern" parent="Widget.MaterialComponents.AppBarLayout">
+        <item name="android:background">@color/modern_surface</item>
+        <item name="android:elevation">@dimen/modern_elevation_m</item>
+    </style>
+</resources>

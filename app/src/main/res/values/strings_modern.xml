@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 现代化主题相关字符串 -->
+    <string name="theme_modern">现代主题</string>
+    <string name="theme_modern_description">现代化的 Material Design 3 设计风格，提供更好的视觉体验</string>
+    <string name="theme_modern_primary">现代主题 - 主色</string>
+    <string name="theme_modern_secondary">现代主题 - 次要色</string>
+    <string name="theme_modern_accent">现代主题 - 强调色</string>
+    
+    <!-- 交互反馈 -->
+    <string name="button_click_feedback">按钮点击反馈</string>
+    <string name="smooth_animations">流畅动画效果</string>
+    <string name="enhanced_visuals">增强的视觉效果</string>
+</resources>

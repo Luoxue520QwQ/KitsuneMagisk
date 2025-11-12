@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 现代化间距系统 - 改进的视觉层次 -->
+    
+    <!-- 间距系统 - 基于 8dp 网格系统 -->
+    <dimen name="modern_space_xxs">2dp</dimen>
+    <dimen name="modern_space_xs">4dp</dimen>
+    <dimen name="modern_space_s">8dp</dimen>
+    <dimen name="modern_space_m">12dp</dimen>
+    <dimen name="modern_space_l">16dp</dimen>
+    <dimen name="modern_space_xl">24dp</dimen>
+    <dimen name="modern_space_xxl">32dp</dimen>
+    <dimen name="modern_space_xxxl">48dp</dimen>
+    
+    <!-- 圆角大小 - 适中的圆角，避免过大 -->
+    <dimen name="modern_corner_xs">4dp</dimen>
+    <dimen name="modern_corner_s">8dp</dimen>
+    <dimen name="modern_corner_m">12dp</dimen>
+    <dimen name="modern_corner_l">16dp</dimen>
+    <dimen name="modern_corner_xl">20dp</dimen>
+    
+    <!-- 组件大小 -->
+    <dimen name="modern_button_height">44dp</dimen>
+    <dimen name="modern_icon_size_s">16dp</dimen>
+    <dimen name="modern_icon_size_m">24dp</dimen>
+    <dimen name="modern_icon_size_l">32dp</dimen>
+    <dimen name="modern_icon_size_xl">40dp</dimen>
+    
+    <!-- 阴影深度 -->
+    <dimen name="modern_elevation_s">2dp</dimen>
+    <dimen name="modern_elevation_m">4dp</dimen>
+    <dimen name="modern_elevation_l">8dp</dimen>
+    <dimen name="modern_elevation_xl">16dp</dimen>
+    
+    <!-- 边框宽度 -->
+    <dimen name="modern_border_width_s">0.5dp</dimen>
+    <dimen name="modern_border_width_m">1dp</dimen>
+    <dimen name="modern_border_width_l">2dp</dimen>
+</resources>

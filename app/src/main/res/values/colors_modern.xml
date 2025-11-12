@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 现代化配色方案 - 保持专业感的同时增强视觉吸引力 -->
+    
+    <!-- 主色调 - 深蓝色系，保持专业感 -->
+    <color name="modern_primary">#1A237E</color>
+    <color name="modern_primary_light">#534BAE</color>
+    <color name="modern_primary_dark">#000051</color>
+    
+    <!-- 次要色调 - 温暖的紫色，增加活力 -->
+    <color name="modern_secondary">#7B1FA2</color>
+    <color name="modern_secondary_light">#AE52D4</color>
+    <color name="modern_secondary_dark">#4A0072</color>
+    
+    <!-- 强调色 - 鲜艳的蓝色，用于重要操作 -->
+    <color name="modern_accent">#2962FF</color>
+    <color name="modern_accent_light">#768FFF</color>
+    <color name="modern_accent_dark">#0039CB</color>
+    
+    <!-- 中性色系 - 改进的灰度 -->
+    <color name="modern_surface">#FAFAFA</color>
+    <color name="modern_surface_variant">#E0E0E0</color>
+    <color name="modern_background">#FFFFFF</color>
+    
+    <!-- 文本颜色 - 更好的对比度 -->
+    <color name="modern_on_primary">#FFFFFF</color>
+    <color name="modern_on_secondary">#FFFFFF</color>
+    <color name="modern_on_surface">#212121</color>
+    <color name="modern_on_surface_variant">#424242</color>
+    
+    <!-- 状态颜色 -->
+    <color name="modern_success">#388E3C</color>
+    <color name="modern_warning">#F57C00</color>
+    <color name="modern_error">#D32F2F</color>
+    <color name="modern_info">#0288D1</color>
+    
+    <!-- 图标和按钮颜色 -->
+    <color name="modern_icon_active">@color/modern_accent</color>
+    <color name="modern_icon_inactive">#757575</color>
+    
+    <!-- 阴影和边框颜色 -->
+    <color name="modern_shadow">#1A000000</color>
+    <color name="modern_border">#E0E0E0</color>
+</resources>

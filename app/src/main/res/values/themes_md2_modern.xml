@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 现代化主题 - 基于 Material Design 3 设计原则 -->
+    
+    <!-- 主现代化主题 -->
+    <style name="ThemeFoundationMD2.Modern" parent="ThemeFoundationMD2">
+        <!-- 颜色系统 -->
+        <item name="colorPrimary">@color/modern_primary</item>
+        <item name="colorPrimaryVariant">@color/modern_primary_dark</item>
+        <item name="colorSecondary">@color/modern_secondary</item>
+        <item name="colorSecondaryVariant">@color/modern_secondary_dark</item>
+        <item name="colorAccent">@color/modern_accent</item>
+        
+        <!-- 背景颜色 -->
+        <item name="android:colorBackground">@color/modern_background</item>
+        <item name="android:colorBackgroundFloating">@color/modern_surface</item>
+        
+        <!-- 表面颜色 -->
+        <item name="colorSurface">@color/modern_surface</item>
+        <item name="colorOnSurface">@color/modern_on_surface</item>
+        
+        <!-- 文本颜色 -->
+        <item name="android:textColorPrimary">@color/modern_on_surface</item>
+        <item name="android:textColorSecondary">@color/modern_on_surface_variant</item>
+        
+        <!-- 组件样式 -->
+        <item name="cardViewStyle">@style/WidgetFoundation.Card.Modern</item>
+        <item name="materialButtonStyle">@style/WidgetFoundation.Button.Modern</item>
+        <item name="bottomNavigationStyle">@style/WidgetFoundation.BottomNavigation.Modern</item>
+        <item name="toolbarStyle">@style/WidgetFoundation.Toolbar.Modern</item>
+        
+        <!-- 状态栏和导航栏 -->
+        <item name="android:statusBarColor">@color/modern_primary_dark</item>
+        <item name="android:navigationBarColor">@color/modern_background</item>
+        
+        <!-- 窗口设置 -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    
+    <!-- 现代化主题变体 -->
+    <style name="ThemeFoundationMD2.Modern.Primary" parent="ThemeFoundationMD2.Modern">
+        <item name="colorPrimary">@color/modern_primary</item>
+        <item name="colorPrimaryVariant">@color/modern_primary_light</item>
+    </style>
+    
+    <style name="ThemeFoundationMD2.Modern.Secondary" parent="ThemeFoundationMD2.Modern">
+        <item name="colorPrimary">@color/modern_secondary</item>
+        <item name="colorPrimaryVariant">@color/modern_secondary_light</item>
+    </style>
+    
+    <style name="ThemeFoundationMD2.Modern.Accent" parent="ThemeFoundationMD2.Modern">
+        <item name="colorPrimary">@color/modern_accent</item>
+        <item name="colorPrimaryVariant">@color/modern_accent_light</item>
+    </style>
+    
+    <!-- 现代化主题 - 用于浮动窗口 -->
+    <style name="ThemeFoundationMD2.Modern.Floating" parent="ThemeFoundationMD2.Floating">
+        <item name="colorPrimary">@color/modern_primary</item>
+        <item name="colorPrimaryVariant">@color/modern_primary_dark</item>
+        <item name="colorSecondary">@color/modern_secondary</item>
+        <item name="colorAccent">@color/modern_accent</item>
+        <item name="android:colorBackground">@color/modern_surface</item>
+    </style>
+</resources>
